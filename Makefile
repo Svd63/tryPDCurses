@@ -20,7 +20,7 @@ ifeq ($(DEBUG),Y)
 	LDFLAGS = -g
 else
 	CFLAGS  = -O2 -Wall
-	LDFLAGS =
+	LDFLAGS = 
 endif
 
 CFLAGS += -I./include
